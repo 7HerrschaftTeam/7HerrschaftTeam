@@ -1,41 +1,30 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Die 7. Weltherrschaft</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Anmeldeformular -->
-    <div id="login-container">
-        <h2>Melde dich an</h2>
-        <form id="login-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" required>
-            <label for="profile-pic">Profilbild:</label>
-            <input type="file" id="profile-pic" accept="image/*" required>
-            <button type="submit">Anmelden</button>
-        </form>
-    </div>
+    <div class="container">
+        <header>
+            <h1 class="title">Die 7. Weltherrschaft</h1>
+            <p class="subtitle">Erobere die Welt und führe deine Armee zum Sieg!</p>
+        </header>
 
-    <!-- Weltkarte -->
-    <div id="map-container">
-        <object id="world-map" data="https://upload.wikimedia.org/wikipedia/commons/b/b7/World98.svg" type="image/svg+xml"></object>
-    </div>
-
-    <!-- Admin Panel -->
-    <div id="admin-panel">
-        <h2>Admin Panel</h2>
-        <input type="password" id="admin-password" placeholder="Admin Passwort">
-        <button id="admin-login">Login</button>
-        <div id="admin-tools">
-            <h3>Spieler verwalten</h3>
-            <div id="player-list"></div>
-            <button id="next-turn">Nächster Spieler am Zug</button>
+        <div class="map-container">
+            <!-- Hier kommt die SVG-Karte oder ein Bild -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/World98.svg" alt="World Map" class="world-map">
         </div>
+
+        <footer>
+            <p>© 2024 Die 7. Weltherrschaft. Alle Rechte vorbehalten.</p>
+        </footer>
     </div>
 
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
