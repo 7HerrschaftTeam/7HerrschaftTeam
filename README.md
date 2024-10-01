@@ -1,33 +1,18 @@
-# Die 7. Weltherrschaft
+# Kriegslandschaft
 
-Willkommen zu **Die 7. Weltherrschaft** – ein strategisches Spiel, bei dem die Spieler Provinzen auf einer Weltkarte erobern und verteidigen können. Diese Anwendung bietet eine interaktive Benutzeroberfläche zur Verwaltung der Provinzen und Spielerzüge.
+**Kriegslandschaft** ist ein interaktives Projekt, das die Auswirkungen von Kriegen auf verschiedene Regionen und Gemeinschaften visualisiert und analysiert. Ziel ist es, das Bewusstsein für die Realität des Krieges zu schärfen und eine Plattform für den Austausch von Informationen und Erfahrungen zu bieten.
 
-## Inhaltsverzeichnis
+## Inhalt
 
-- [Features](#features)
-- [Technologien](#technologien)
-- [Installation](#installation)
-- [Benutzung](#benutzung)
-- [Cheatsicherheit](#cheatsicherheit)
-- [Mitwirkende](#mitwirkende)
-- [Lizenz](#lizenz)
+- Detaillierte Karten von Konfliktgebieten
+- Statistiken zu Opfern und humanitären Krisen
+- Benutzerdefinierte Berichte und Analysen
+- Interaktive Benutzeroberfläche für eine bessere Nutzererfahrung
 
-## Features
+## Installation
 
-- Interaktive Weltkarte mit Provinzen.
-- Provinzen können in verschiedenen Farben gefärbt werden:
-  - **Rot**: Angriff
-  - **Blau**: Verteidigung
-  - **Orange**: Bewegung
-- Anmeldung mit Namen und Profilbild.
-- Admin-Panel zur Verwaltung der Spielerzüge.
-- Speichern von Spielständen und Benutzerprofilen.
+Um das Projekt lokal zu installieren und auszuführen, folge diesen Schritten:
 
-## Technologien
-
-- **HTML5**: Struktur der Webseite.
-- **CSS3**: Stil und Layout der Benutzeroberfläche.
-- **JavaScript**: Interaktive Funktionalität.
-- **Node.js**: Serverseitige Logik.
-- **Express.js**: Webanwendungsframework für Node.js.
-- **⬤
+1. Klone das Repository:
+   ```bash
+   git clone https://github.com/7HerrschaftTeam/Kriegslandschaft.git
